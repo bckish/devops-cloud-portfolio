@@ -51,3 +51,16 @@ The ranges collectively cover exercises 1–65; candidate repositories are not e
 4. AIOps read-only diagnostics and resource recommendation engine.
 5. MLOps reproducible training, serving and monitoring.
 6. Remaining specialized labs and cross-capstone evidence.
+
+## Implementation progress — 26 November 2026
+
+| Workstream | Local evidence | Still missing |
+| --- | --- | --- |
+| FinTech integrated delivery | Five-service checkout with Go mock payment, Node notification, Java ledger, Python synthetic fraud and browser UI; Compose, Helm and browser smoke tests passed. Argo CD reconciled two disposable local Git revisions and restored replica drift. | React/TypeScript CDN, durable transactional payment and ledger, event broker, Jenkins and release gates. |
+| Zero-trust platform | Namespace RBAC, named scale permissions, Restricted Pod Security, NetworkPolicy admission validated. | Network traffic enforcement on a policy-capable CNI, workload identity, encrypted inter-service traffic, production policy exceptions. |
+| AWS environment foundation | Mock-tested private EKS control plane, six private VPC subnets, private versioned S3 and immutable ECR. | AWS-specific CDN, compute, load balancing, managed data services, remote state/account isolation, real deployments. |
+| Governance and data migration | Offline OPA policy tests and real disposable PostgreSQL/Flyway V1–V3 migration replay. | Integrated real-plan policy gate, backward compatibility across releases, approved backup/restore. |
+| AIOps | Deterministic read-only local event triage and bounded CPU recommendation baseline. | Local Ollama/K8sGPT inference, telemetry ingestion, evaluation and human-reviewed remediation workflow. |
+| MLOps | Synthetic model artifact, reproducible held-out evaluation, local inference and telemetry. | DVC, MLflow, KServe, model rollout, drift metrics and proper operational validation. |
+
+The first eight portfolio PRs were merged on 26 November 2026; follow-up implementations are proposed separately for review. This tracker records evidence milestones, not completion of all 65 exercises or production outcomes.
