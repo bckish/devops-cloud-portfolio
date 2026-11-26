@@ -18,3 +18,7 @@ Open `index.html` in a browser, or serve this directory with any static file ser
 3. Kubernetes Operations & Observability
 4. Serverless & Cloud Automation
 5. Automation, Containers & AI Operations
+
+## AI-driven engineering project roadmap
+
+See [the bootcamp-aligned implementation roadmap](docs/bootcamp-roadmap.md) for the seven capstones, the 65 numbered exercises, existing repository matches, and remaining evidence gaps. The roadmap distinguishes verified local examples from future work and does not claim course completion or production outcomes.
